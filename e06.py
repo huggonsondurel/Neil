@@ -1,0 +1,5 @@
+juli = float(input("请输入距离："))
+time = float(input("请输入时间："))
+cusudu = float(input("请输入初速度："))
+jisudu = (juli - cusudu * time) / (time ** 2 *0.5)
+print("加速度：" + str(jisudu))
